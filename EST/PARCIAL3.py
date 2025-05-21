@@ -72,4 +72,4 @@ resultado_final = agrupar_por_pais(todos_los_datos)
 with open("resultado_final.json", "w", encoding="utf-8") as f:
     json.dump(resultado_final, f, indent=2)
 
-print("✅ Resultado guardado como 'resultado_final.json'")
+print(" Resultado guardado como 'resultado_final.json'")
